@@ -31,5 +31,5 @@ while turns > 0:
 		print("Wrong")
 		print("You have", + turns, 'more guesses')
 		if turns == 0:
-			print("12 chance diye kuch toh sharam kr lo behuda", word, "likha tha")
+			print("It looks like your IQ is less than 69.8 percent of the human population, anyways, the word was", word)
 
