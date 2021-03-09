@@ -11,17 +11,17 @@ word = random.choice(words)
 time.sleep(0.5)
 print("Guess the word")
 guesses = ''
-turns = 12
+turns = 6
 while turns > 0:
 	failed = 0
 	for char in word: 
 		if char in guesses: 
 			print(char)
 		else: 
-			print("_")
+			print("_",end="")
 			failed += 1
 	if failed == 0:
-		print("You Win") 
+		print("\nYou Win") 
 		print("The word is: ", word) 
 		break
 	guess = input("guess a character:")
