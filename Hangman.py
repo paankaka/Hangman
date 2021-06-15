@@ -1,5 +1,6 @@
 import random
 import time
+import os
 
 name = input("What is your name? ")
 time.sleep(0.8)
